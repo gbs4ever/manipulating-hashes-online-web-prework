@@ -13,6 +13,7 @@ def first_challenge
     }
   }
 contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
+
   contacts.each do |person, data|
   #at this level, "person" is Jon Snow or Freddy and "data" is a hash of key/value pairs
   #to iterate over the "data" hash, we can use the following line:
@@ -20,7 +21,7 @@ contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
     # "attribute" describes the key of :name, :email, :favorite_icecream_flavors, or :knows
   if attribute == :favorite_icecream_flavors
       value.shift
-
+return contacts
       end
     end
   end
