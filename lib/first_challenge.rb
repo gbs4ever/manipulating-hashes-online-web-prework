@@ -22,9 +22,10 @@ def first_challenge
     # "attribute" describes the key of :name, :email, :favorite_icecream_flavors, or :knows
   if attribute == :favorite_icecream_flavors
 value.shift
-binding.pry
+
 
       end
+      
     end
   end
 end
