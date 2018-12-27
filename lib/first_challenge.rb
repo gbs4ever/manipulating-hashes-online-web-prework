@@ -15,13 +15,13 @@ def first_challenge
 
   contacts.each do |person, data|
   #at this level, "person" is Jon Snow or Freddy and "data" is a hash of key/value pairs
-  #to iterate over the "data" hash, we can use the following line: 
+  #to iterate over the "data" hash, we can use the following line:
    data.each do |attribute, value|
     # "attribute" describes the key of :name, :email, :favorite_icecream_flavors, or :knows
   if attribute == :favorite_icecream_flavors
       value.each do |flavor|
     flavor.shift
-        
+
       end
     end
   end
