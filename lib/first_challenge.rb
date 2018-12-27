@@ -20,7 +20,7 @@ def first_challenge
    data.each do |attribute, value|
     # "attribute" describes the key of :name, :email, :favorite_icecream_flavors, or :knows
   if attribute == :favorite_icecream_flavors
-    :favorite_icecream_flavors.shift
+value [0]
 return contacts
       end
     end
