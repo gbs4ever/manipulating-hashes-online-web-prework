@@ -23,7 +23,7 @@ def first_challenge
   if attribute == :favorite_icecream_flavors
 value.shift
 binding.pry
-return contacts
+
       end
     end
   end
