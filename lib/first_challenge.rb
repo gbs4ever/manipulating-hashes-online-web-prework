@@ -26,8 +26,3 @@ return contacts
     end
   end
 end
-
-
-
-
-
